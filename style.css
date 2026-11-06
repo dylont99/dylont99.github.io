@@ -3,15 +3,25 @@ body {
   background-color: #15202B;
   color: #E0E0E0;
 }
-#title {
-  text-align: center;
+header {
+  display: block;
+  border-color: #E0E0E0;
+  border: 2px;
 }
-nav {
+nav { 
+  #title {
+    font-size: x-large;
+    font-weight: bold;
+  }
   & ul {
     list-style: none;
     display: flex;
     padding: 0;
     margin: 0;
     justify-content: space-between;
+    align-items: center;
+  }
+  & a {
+    color: inherit;
   }
 }
